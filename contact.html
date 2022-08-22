@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>The Foodie Express.</title>
+    <style>
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+   
+}
+body::before{
+    content: "";
+    background-image: url(cbg.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    opacity: 0.7;
+}
+
+#navbar{
+    display: flex;
+    position: relative;
+
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+    padding: 5px 20px;
+    margin: 3px 5px;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    padding: 3px 13px ;
+}
+a:hover{
+    color: black;
+    background-color: white;
+
+}
+
+/*Contact*/
+#contact{
+    position: relative;
+}
+
+#contactbox{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 13px 30px;
+    border-radius: 25px;
+    margin-top: 20px;
+} 
+input{
+    padding: 8px 5px;
+    margin: 10px 50px;
+    width: 500px;
+    border-radius: 7px;
+
+}
+
+h1{
+    margin-bottom: 80px;
+
+}
+.btn{
+
+padding: 3px 20px;
+border: 2px solid black;
+margin: 20px;
+border-radius: 10px;
+font-size: 1rem;
+cursor: pointer;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="" alt="">
+        </div>
+
+        <ul>
+            <li class="items"><a href="/index.html">Home</a></li>
+            <li class="items"><a href="/services.html">Services</a></li>
+            <li class="items"><a href="#">Contact Us</a></li>
+            <li class="items"><a href="/about.html">About</a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <!--Contact-->
+
+<section id="contact">
+    
+    <div id="contactbox">
+        <h1>Contact Us</h1>
+        <form action="">
+            <label for="name">Name: </label>
+            <input type="text" name="" id="name" placeholder="Enter Your Name!">
+            <br>
+            <labcel for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email!">
+            <br>
+            <label for="number">Ph No: </label>
+            <input type="number" name="number" id="number" placeholder="Enter Your Number!">
+            <br>
+            <label for="address">Addr:</label>
+            <input type="text" name="" id="address" placeholder="Enter Your Address!">
+            <br>
+            <br>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</section>
+
+
+ <!--footer
+ <footer>
+    <p>Author: Hege Refsnes<br>
+    <a href="mailto:hege@example.com">hege@example.com</a></p>
+  </footer>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

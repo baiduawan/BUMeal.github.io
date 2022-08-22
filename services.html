@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>The Foodie Express.</title>
+    <style>
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+body::before{
+    content: "";
+    /*
+    background-image: url(sbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    }
+#navbar{
+    display: flex;
+    position: relative;
+
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    }
+
+ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+    padding: 5px 20px;
+    margin: 3px 5px;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    padding: 3px 13px ;
+}
+a:hover{
+    color: black;
+    background-color: white;
+
+}
+
+
+/*Services*/
+.service{
+    margin: -120px 30px;
+    padding: 3px 4px;
+    margin-bottom:;
+}
+
+#services{
+    margin:0px 34px;
+    display: flex;
+
+    
+}
+#services .box{
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+    width: 291px;
+    border-radius: 4px;
+    background-color: rgb(253, 248, 241);
+    height: 400px;
+}
+#services .box img{
+    height: 160px;
+    width: 291px;
+    
+}
+.center{
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 270px;
+
+}
+#h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 2.4rem;
+}
+.h1{
+    font-size: 2rem;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+}
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="" alt="">
+        </div>
+
+        <ul>
+            <li class="items"><a href="/index.html">Home</a></li>
+            <li class="items"><a href="#">Services</a></li>
+            <li class="items"><a href="/contact.html">Contact Us</a></li>
+            <li class="items"><a href="/about.html">About</a></li>
+        </ul>
+    </nav>
+
+
+
+<!--Services-->
+
+
+<section class="service">
+    <h1 id="h1">Our Services</h1>
+    <div id="services">
+        <div class="box">
+            <img src="b1.jpg" alt="">
+            <h2 class="h1">Food Ordering</h2>
+            <p class="center"> “You are what you eat, so don’t be fast, cheap, easy, or fake.”
+                <br> “If you keep good food in your fridge, you will eat good food.”
+            </p>
+        </div>
+        <div class="box">
+            <img src="b2.jpg" alt="">
+            <h2 class="h1">Tasteful Foods</h2>
+            <p class="center">“By choosing healthy over skinny you are choosing self-love over self-judgement.”
+                <br>
+                “Your diet is a bank account. Good food choices are good investments.
+            </p>
+        </div>
+        <div class="box">
+            <img src="b3.jpg" alt="">
+            <h2 class="h1">Food Paradise</h2>
+            <p class="center">“Eat breakfast like a king, lunch like a prince, and dinner like a pauper.”
+                <br>
+                “Let food be thy medicine, thy medicine shall be thy food.”
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="service">
+    <h1 id="h1"></h1>
+    <div id="services">
+        <div class="box">
+            <img src="b4.jpg" alt="">
+            <h2 class="h1">Accent Food</h2>
+            <p class="center"> “The food you eat can be either the safest and most powerful form of medicine or the slowest form of poison.”
+                <br> “A healthy outside starts from the inside.” 
+            </p>
+        </div>
+        <div class="box">
+            <img src="b5.jpg" alt="">
+            <h2 class="h1">Meal Dash</h2>
+            <p class="center">“What you eat in private you wear in public.”
+                <br>
+                “Moderation. Small helpings. Sample a little bit of everything. These are the secrets of happiness and good health.” 
+            </p>
+        </div>
+        <div class="box">
+            <img src="b6.jpg" alt="">
+            <h2 class="h1">Yummy Foods</h2>
+            <p class="center">“Any food that requires enhancing by the use of chemical substances should in no way be considered a food.”
+                <br>
+                “Success is the sum of small efforts—repeated day-in and day-out.”
+            </p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
